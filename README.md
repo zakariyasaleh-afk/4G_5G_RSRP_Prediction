@@ -43,23 +43,24 @@ Longitude, Latitude, Altitude, Speed, Operatorname, NetworkTech, Qual, SNR, CQI,
 
 ### Feature Importance Table
 
-| Feature            | Importance Score | Description                               |
-|--------------------|------------------|-------------------------------------------|
-| NRxLev1            | 0.327            | Neighbor cell signal strength             |
-| SNR                | 0.144            | Signal-to-noise ratio                     |
-| Qual               | 0.119            | Signal quality                             |
-| Latitude           | 0.096            | Device latitude                            |
-| Longitude          | 0.088            | Device longitude                           |
-| SecondCell_RSRP    | 0.061            | Signal strength from second cell          |
-| Altitude           | 0.030            | Device altitude                            |
-| Speed              | 0.022            | Device speed                               |
-| NetworkTech_4G     | 0.021            | Binary indicator for 4G network           |
-| NetworkTech_5G     | 0.020            | Binary indicator for 5G network           |
-| NQual1             | 0.017            | Neighbor cell quality metric               |
-| SecondCell_SNR     | 0.016            | Signal-to-noise ratio from second cell    |
-| CQI                | 0.013            | Channel quality indicator                  |
-| UL_bitrate         | 0.006            | Uplink throughput                           |
-| DL_bitrate         | 0.006            | Downlink throughput                         |
+| Feature               | Description                                          | Importance Score|
+|-----------------------|------------------------------------------------------|-----------------|
+| NRxLev1               | Signal strength received from the neighboring cell   | 0.327           |
+| SNR                   | Signal-to-noise ratio of the connection              | 0.144           |
+| Qual                  | Signal quality metric reported by the device         | 0.119           |
+| Latitude              | Device latitude coordinate                           | 0.096           |
+| Longitude             | Device longitude coordinate                          | 0.088           |
+| SecondCell_RSRP       | Signal strength received from a secondary cell       | 0.061           |
+| Altitude              | Device altitude above ground                         | 0.030           |
+| Speed                 | Device movement speed                                | 0.022           |
+| NetworkTech_4G        | Indicates if the device is connected to a 4G network | 0.021           |
+| NetworkTech_5G        | Indicates if the device is connected to a 5G network | 0.020           |
+| NQual1                | Quality metric of the neighboring cell               | 0.017           |
+| SecondCell_SNR        | Signal-to-noise ratio from the second cell           | 0.016           |
+| CQI                   | Channel Quality Indicator reported by the device     | 0.013           |
+| UL_bitrate            | Uplink throughput in the connection                  | 0.006           |
+| DL_bitrate            | Downlink throughput in the connection                | 0.006           |
+
 
 Note: Importance scores are derived from the trained Random Forest model.
 
