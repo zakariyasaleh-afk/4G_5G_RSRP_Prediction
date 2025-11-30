@@ -30,15 +30,17 @@ Longitude, Latitude, Altitude, Speed, Operatorname, NetworkTech, Qual, SNR, CQI,
   - *Mean Squared Error (MSE)*
   - *Coefficient of Determination (R²)*
 - Visualizations:
-  - Scatter plot of actual vs predicted RSRP
+  - Scatter plot of actual vs predicted RSRP:
+     <img width="583" height="450" alt="Screenshot 2025-12-01 013243" src="https://github.com/user-attachments/assets/a89551e1-ee75-45fc-b657-5b230e3372f8" />
+
   - Prediction error histogram
   - Feature importance bar chart
 
 ### Results
-- MSE: your_value_here
-- R²: your_value_here
-- Mean prediction error: your_value_here
-- Standard deviation of errors: your_value_here
+- MSE: 12.246
+- R²: 0.899
+- Mean prediction error: 0.023
+- Standard deviation of errors: 3.499
 
 ### Feature Importance Table
 
