@@ -8,8 +8,7 @@ This project predicts *4G and 5G signal strength (RSRP)* at a device using a com
 - *Source:* https://data.mendeley.com/datasets/dx5xyyfz2y/1
 - *Features:* Device location, speed, altitude, network type, signal quality metrics, neighboring cell information, uplink/downlink throughput, bandwidth indicators.
 - *Label:* Level (RSRP in dBm)
-- *Size:* 30926
-- *Missing values:* None
+- *Size:* 30926 rows
 
 ### Data Preprocessing
 - Categorical features (Operatorname, NetworkTech) are one-hot encoded.
