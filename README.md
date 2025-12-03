@@ -31,6 +31,7 @@ Longitude, Latitude, Altitude, Speed, Operatorname, NetworkTech, Qual, SNR, CQI,
   - *Coefficient of Determination (R²)*
 - Visualizations:
   - Scatter plot of actual vs predicted RSRP:
+    
      <img width="583" height="450" alt="Screenshot 2025-12-01 013243" src="https://github.com/user-attachments/assets/a89551e1-ee75-45fc-b657-5b230e3372f8" />
 
   - Prediction error histogram
