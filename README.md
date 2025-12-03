@@ -67,10 +67,10 @@ Longitude, Latitude, Altitude, Speed, Operatorname, NetworkTech, Qual, SNR, CQI,
 Note: Importance scores are derived from the trained Random Forest model.
 
 ## Insights
-- Location (latitude & longitude) and neighboring cell signals strongly influence predicted RSRP.
-- Network type (4G vs 5G) affects signal patterns and is captured by binary indicators.
-- Device conditions like speed and altitude impact signal fluctuations.
-- Channel quality (CQI) and SNR are critical for accurate signal prediction.
+-NRxLev1, SNR, and Qual dominate the feature importance, meaning neighbor cell signal strength and signal quality metrics are most critical for predicting RSRP.
+-Location features (Latitude, Longitude, Altitude) also contribute, showing spatial influence on signal levels.
+-Network technology indicators (4G/5G) have moderate importance, reflecting differences in signal characteristics across technologies.
+-UL/DL bitrate are less important, showing that throughput alone is not a strong predictor of RSRP.
 
 ## Dependencies
 - Python 3.x
