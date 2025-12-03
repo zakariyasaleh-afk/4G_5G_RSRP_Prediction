@@ -6,9 +6,10 @@ This project predicts *4G and 5G signal strength (RSRP)* at a device using a com
 
 ## Dataset
 - *Source:* https://data.mendeley.com/datasets/dx5xyyfz2y/1
+- This dataset contains 30,925 labelled and cleaned records collected from a dense 2 km² urban area surrounding Sunway University, Selangor, Malaysia and captures radio signal quality      metrics (RSRP, RSRQ, SNR, etc.)
 - *Features:* Device location, speed, altitude, network type, signal quality metrics, neighboring cell information, uplink/downlink throughput, bandwidth indicators.
 - *Label:* Level (RSRP in dBm)
-- *Size:* 30926 rows
+- *Size:* 30925 labelled and cleaned records
 
 ### Data Preprocessing
 - Categorical features (Operatorname, NetworkTech) are one-hot encoded.
